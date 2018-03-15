@@ -54,9 +54,9 @@ const TabsExampleSimple = () => (
             <h2 style={styles.headline}>"Daddy's Specials"</h2>
           </p>
           <p>
-            <RaisedButton label="Bullpenis"/>
+            <RaisedButton label="Eggplant Parmesan"/>
             <RaisedButton label="Toss Your Own Caesar's Salad"/>
-            <RaisedButton label="Breadsdicks"/>
+            <RaisedButton label="Fishsticks"/>
           </p>
           </div>
       </div>

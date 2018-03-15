@@ -91,7 +91,7 @@ class Home extends Component {
                   <td>$10 </td>
                 </tr>
                 <tr>
-                  <td>Bullpenis</td>
+                  <td>Chicken Parmesan</td>
                   <td>$1337</td>
                 </tr>
                 <tr>
