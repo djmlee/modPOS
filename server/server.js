@@ -50,7 +50,7 @@ const LocalStrategy   = require('passport-local').Strategy;
     else {config.db}
 */
 mongoose.connect(isDev ? config.db_dev : config.db, {
-  useMongoClient: true, //no longer necessary in mongoose 5.x
+  useMongoClient: true //no longer necessary in mongoose 5.x and mongo 3.4+
 });
 mongoose.Promise = global.Promise;
 

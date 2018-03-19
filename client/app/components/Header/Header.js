@@ -19,9 +19,10 @@ import Clock from '../clock/clock';
 */
 
 var styles = {
+  //Style for the navBar title text
+  fontFamily:'Sweet Hipster',
   fontSize:'xx-large',
 	color:'white',
-	fontWeight:'bold',
   textAlign:'center'
 };
 
@@ -34,7 +35,7 @@ const Header = () => (
               border: '1px solid #ffffff',
               backgroundColor: '#313131',
             }}
-            title={<div style={styles}><span>ModularPOS : We need a better name</span></div>}
+            title={<div style={styles}><span>(serve+)</span></div>}
             iconElementLeft={<Clock />}
             iconElementRight={<DialogExampleSimple />}
             />
